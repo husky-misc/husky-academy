@@ -1,0 +1,6 @@
+/pix_key/coverage/
+/pix_key/spec/reports/
+/pix_key/spec/examples.txt
+/pix_key/tmp/
+/pix_key/.rspec_status
+/pix_key/Gemfile.lock

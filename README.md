@@ -32,7 +32,7 @@ Os testes foram escritos usando `Rspec`. Caso não conheça a ferramenta, acesse
 
 ## Submetendo o seu teste para avaliação
 
-1. Preencha o `me.json` com os seus dados.
+1. Preencha o `me.json` com os seus dados pessoais e faça o commit deste arquivo.
 2. Garanta que a sua branch local `main` contenha seu último commit.
 3. Execute o comando `ruby prepare_to_submit.rb`
 4. Faça upload do arquivo com final `.bundle` nesse form: [https://forms.gle/2Bwqm9G3Mzv3nUaD7](https://forms.gle/2Bwqm9G3Mzv3nUaD7).
@@ -43,5 +43,6 @@ Os testes foram escritos usando `Rspec`. Caso não conheça a ferramenta, acesse
 1. Não faça fork, nem torne o seu repositório público.
    > O __*Husky Academy*__ tem como objetivo capacitar as pessoas durante o processo seletivo, então, por favor, **não compartilhe seu código**. Permita que cada participante viva sua própria experiência de crescimento e aprendizagem.
 2. Tenha certeza que o código está executável (sem erros de sintaxe) e que todos os testes estão passando.
-3. Altere apenas os arquivos `pix_key/lib/pix_key.rb` e o `me.json`.
+3. Altere apenas os arquivos `pix_key/lib/pix_key.rb`, `me.json` e `Gemfile` caso precise adicionar uma dependência.
+   > Todos esses arquivos precisam estar no git, caso contrário você poderá ser desclassificado(a).
 4. **Apenas um upload será permitido**. Caso contrário, há o risco de avaliarmos a versão incorreta do seu código.

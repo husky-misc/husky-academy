@@ -111,7 +111,7 @@ class PixKey
     end
       
     def validaEvp(evp) 
-        if(not(evp.match('[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}', evp))) 
+        if(not(evp.match('[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}'))) 
             return false
         end
         return true
